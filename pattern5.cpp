@@ -2,11 +2,11 @@
 Input:- 5
 Output:-
 
-*****
-*****
-*****
-*****
-*****
+2
+24
+246
+2468
+246810
 
 */
 #include<iostream>
@@ -16,8 +16,8 @@ int main(){
     int n,i,j;
     cin>>n;
     for(i=1;i<=n;i++){
-        for(j=1;j<=n;j++){
-            cout<<"*";
+        for(j=1;j<=i;j++){
+            cout<<j*2;
         }
         cout<<endl;
     }
